@@ -9,3 +9,9 @@ A: Staging area is the middle part of the process where a user can choose which 
 # How can you use the staging area to make sure you have one commit per logical change?
 
 A: Since I can see the difference betweent the latest commit and the changes that have been made in the staging area I can compare the versions and see that I have made only one logical change.
+
+/*
+"git diff" is used to see the difference between the files in the working directory and the staging area. 
+
+"git diff --staged" is used to see the difference between the files in the staging area and the most recent commit.
+*/
