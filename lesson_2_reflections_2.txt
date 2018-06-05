@@ -5,3 +5,7 @@ A: When I run the git command 'git init' it makes a hidden folder called '.git' 
 # How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 A: Staging area is the middle part of the process where a user can choose which file(s) he want to add to the repository.
+
+# How can you use the staging area to make sure you have one commit per logical change?
+
+A: Since I can see the difference betweent the latest commit and the changes that have been made in the staging area I can compare the versions and see that I have made only one logical change.
