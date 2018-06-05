@@ -1,0 +1,7 @@
+# What happens when you initialize a repository? Why do you need to do it?
+
+A: When I run the git command 'git init' it makes a hidden folder called '.git' where it tracks all the changes that I make to the file(s) in the directory.
+
+# How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: Staging area is the middle part of the process where a user can choose which file(s) he want to add to the repository.
