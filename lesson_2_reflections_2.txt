@@ -15,3 +15,7 @@ A: Since I can see the difference betweent the latest commit and the changes tha
 
 "git diff --staged" is used to see the difference between the files in the staging area and the most recent commit.
 */
+
+# What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: When I want to add an experimental feature to my codebase that might break the master version, I would create a branch to test it out. Also, I can merge those two branches together if I think that the feature is ready. In collab projects, branching is extremely useful since two people might be working on the same feature at the same time. look at this video: (https://www.youtube.com/watch?time_continue=83&v=KLKrKQFgq00)
