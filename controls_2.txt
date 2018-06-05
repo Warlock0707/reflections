@@ -1,0 +1,7 @@
+git init --> makes a new directory
+git reset --> to remove a file from the staging area
+git status --> shows whether it is a git directory or not
+
+# Changes to be committed means that those files are in the staging area
+
+# http://udacity.github.io/git-styleguide

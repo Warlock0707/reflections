@@ -1,0 +1,46 @@
+git clone 
+git diff 
+git log 
+git checkout 
+git config --global color.ui auto
+git init
+git status 
+git diff -- see the changes made in the working directory and staging area
+git diff --staged -- staging area and the most recent commit
+git reset --hard --> be very careful
+git branch --> show the current branches
+git branch <branch name>
+git checkout <branch name>
+git log --graph --oneline <branch1> <branch2>
+git merge <branch1> <branch2>
+git checkout -b <branch_name>
+git show <commit_name> --> compare it with it's parent
+git branch -d <branch_name>
+
+//================================//
+
+git config --global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+
+//================================//
+
+-> Most recent commits are shown at the top of the screen rather than at the bottom.
+
+-> To show the additions of a "new" version using 'git diff' it has to be passed as the second argument.
+
+-> 'HEAD' is git's style of calling a commit.
+
+-> http://udacity.github.io/git-styleguide/
+
+-> Commit messages should be written as writing a command.
+
+-> First make the change and then add the file(s) to the staging area and check the difference between the files using 'git diff' to see what changes have been made
+
+-> "remote branch" means that another person created the branch not me.
+
+-> commits appears according to timestamps.
+
+In the .bash_profile
+
+alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
