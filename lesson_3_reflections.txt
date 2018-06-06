@@ -17,3 +17,11 @@ A: It helps to resolve and merge conflicts that occur when you're trying to merg
 # How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 A: Without using GitHub and Git it would be extremely difficult to track changes to what has been updated by the other person. Since you can't merge both the files and see what changes has been made the individuals. Also, you can't make pull requests. YOu'd have to manually specify which part of the codebase you want the implememter to change or correct it. 
+
+/*
+You just saw that the workflow when making changes in a separate branch is more complicated than working directly in master, especially when you need to stay up-to-date with changes others are making. Rather than simply pulling and pushing, you need to pull changes into your local master branch, merge the local master into your branch (different-oil, in our case), then push your branch to the remote before finally merging your branch into master, either locally or on GitHub.
+*/
+
+# When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A: When you want to try out stuff. When you are making an experimental feature that you full expect to break, you break off into another branch and try it out. Kinda like a workbench. This approach allows us to utilize all the features that the Git/GitHub ecosystem provides while you go try stuff out. Also, it doesn't break the production level code that people are downloading. Also it allows other contributers to make "pull requests" and bring attention to the creater about the features or changes that they have added to make it better while also NOT breaking the production level code. 
