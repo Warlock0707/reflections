@@ -11,6 +11,7 @@ git merge <branch1> <branch2>
 git remote --> To see how many remotes are there.
 git remote add origin <URL>
 git remote -v --> verbose
+git fetch origin
 
 ///////////////////////////////////////////////////
 # Changes to be committed means that those files are in the staging area
@@ -38,3 +39,12 @@ git remote -v --> verbose
 -> Initialize with a README if you're creating a new repository with no content in it. This way it will start out with a commit.
 
 -> Forking a repo is just making a copy of it on your account.
+
+-> "git fetch" updates your remote-tracking branches.
+
+-> "git pull" are two commands merged together:
+	- git fetch origin/master 
+	- git merge master origin/master
+
+-> Fast-Forward merges are mergers where a label of a commit is moved upto the tip of the branch
+

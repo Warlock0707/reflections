@@ -8,4 +8,8 @@ A: If Git automatically pulls all the changes then it might be the case that the
 
 # Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
-A: "Clone" makes a copy of a repository from GitHub to your local machine or it can clone from one location to another on your local machine. "Forks" makes a copy of an existing repository from a account to another account. Branches are used when you want your master version to remain intact and want to try out something, but not have the fear of breaking the working version. Branches are useful when two people are working on a feature at the same time.
+A: "Clone" makes a copy of a repository from GitHub to your local machine or it can clone from one location to another on your local machine. "Forks" makes a copy of an existing repository from a account to another account. Branches are used when you want your master version to remain intact and want to try out something, but not have the fear of breaking the working version. Branches are useful when two people are working on a feature at the same time.	
+
+# What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A: It helps to resolve and merge conflicts that occur when you're trying to merge the local branch with the remote branch.
