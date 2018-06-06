@@ -13,3 +13,7 @@ A: "Clone" makes a copy of a repository from GitHub to your local machine or it 
 # What is the benefit of having a copy of the last known state of the remote stored locally?
 
 A: It helps to resolve and merge conflicts that occur when you're trying to merge the local branch with the remote branch.
+
+# How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A: Without using GitHub and Git it would be extremely difficult to track changes to what has been updated by the other person. Since you can't merge both the files and see what changes has been made the individuals. Also, you can't make pull requests. YOu'd have to manually specify which part of the codebase you want the implememter to change or correct it. 
