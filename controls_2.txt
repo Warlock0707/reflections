@@ -43,8 +43,8 @@ git fetch origin
 -> "git fetch" updates your remote-tracking branches.
 
 -> "git pull" are two commands merged together:
-	- git fetch origin/master 
-	- git merge master origin/master
+	- git fetch
+	- git merge origin/master master
 
 -> Fast-Forward merges are mergers where a label of a commit is moved upto the tip of the branch
 
