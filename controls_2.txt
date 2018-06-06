@@ -1,7 +1,38 @@
 git init --> makes a new directory
 git reset --> to remove a file from the staging area
 git status --> shows whether it is a git directory or not
+git log --graph --oneline <branch1> <branch2>
+git log --graph
+git checkout -b <new_branch> --> Runs two commands at once. Creates a new branch and checkouts into that branch
+git show <commit>
+git merge <branch1> <branch2>
 
+// Lesson 3 //
+git remote --> To see how many remotes are there.
+git remote add origin <URL>
+git remote -v --> verbose
+
+///////////////////////////////////////////////////
 # Changes to be committed means that those files are in the staging area
 
 # http://udacity.github.io/git-styleguide
+
+# https://help.github.com/articles/caching-your-github-password-in-git/
+-> Branches are label
+
+-> Deattached mode means that you were looking at a commit without a label.
+
+-> 'remote branch' means that I did not create the branch. It was created by someone else.
+
+-> When you into 'deattached HEAD' you can make a commit which would not only be unreachable but also won't pollute the master branch
+
+-> "<<<<<" signs to indicate merge conflicts
+	- HEAD is my code
+	- master is the code that is in master right now
+	- ||||| is the original version that both version modified. also know as "common ancestors"
+
+-> Committing often is the best pratice when using Git and Github
+
+-> GitHub has not working directory or staging area.
+
+-> Initialize with a README if you're creating a new repository with no content in it. This way it will start out with a commit.

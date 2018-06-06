@@ -19,3 +19,15 @@ A: Since I can see the difference betweent the latest commit and the changes tha
 # What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 A: When I want to add an experimental feature to my codebase that might break the master version, I would create a branch to test it out. Also, I can merge those two branches together if I think that the feature is ready. In collab projects, branching is extremely useful since two people might be working on the same feature at the same time. look at this video: (https://www.youtube.com/watch?time_continue=83&v=KLKrKQFgq00)
+
+# How do the diagrams help you visualize the branch structure?
+
+A: BY VISUALIZING IT! 
+
+# What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: The result of merging two branches together is that the features in both the branches get merged together. They can also be useful in adding a experimental feature from a branch. A bug fix. BECASUE IT MAKES SENSE. 
+
+# What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: Using automatic merging might prove some murky results that we don't want. It might break the codebase by introducing some logical errors and/or it might not even made the code compilable. Manually merging two branches will give us a chance to fix some conflicts that might have occurred in the code bases. 
